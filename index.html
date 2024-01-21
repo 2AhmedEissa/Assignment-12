@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Partyyyyy!</title>
+  <link rel="icon" href="img/favicon.ico">
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" href="css/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="css/all.min.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <!-- Fonts -->
+
+</head>
+
+<body>
+
+  <section id="home">
+    <span class="openNav position-absolute">☰ open</span>
+    <div class="home-overlay d-flex  justify-content-center align-items-center">
+
+      <div class="home-content d-flex flex-column justify-content-center align-items-center position-relative">
+        <h2>Egyptian Party!</h2>
+        <p>Let's have fun!</p>
+      </div>
+
+
+      <div id="nav" class="nav">
+        <a href="#" class="closebtn">×</a>
+        <a href="#Home">Home</a>
+        <a href="#sliderDown">Duration</a>
+        <a href="#timer">Details</a>
+        <a href="#contact">Contact</a>
+      </div>
+
+    </div>
+
+
+  </section>
+
+  <section class="accordions m-5">
+    <div class="container">
+      <div class="accordion" id="accordionExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button hamada expanded" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+              aria-expanded="true" aria-controls="collapseOne">
+              Singer 1
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+              dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+              ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+              fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+              mollit anim id est laborum."
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed hamada" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              Singer 2
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+              dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+              ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+              fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+              mollit anim id est laborum."
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed hamada" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              Singer 3
+            </button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+              dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+              ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+              fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+              mollit anim id est laborum."
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed hamada" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+              Singer 4
+            </button>
+          </h2>
+          <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+              dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+              ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+              fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+              mollit anim id est laborum."
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="timer" id="timer">
+    <div class="timer-overlay">
+      <div class="container">
+        <div class="row mt-5">
+          <div class="col-md-3">
+            <div class="t-box text-center">
+              <p class="days">0 D</p>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="t-box text-center">
+              <p class="hours">0 h</p>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="t-box text-center">
+              <p class="minutes">0 m</p>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="t-box text-center">
+              <p class="seconds">0 s</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="Contact mt-5 shadowbox" id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <h2>Join Us!</h2>
+        </div>
+      </div>
+      <div class="row mt-4">
+        <div class="col-md-6">
+          <h3>Contact Info</h3>
+          <p class="text-center mt-4">
+            Why you should hire me writeup Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo
+            ligula eget dolor. Aenean massa. Cum sociis natoque nascetur ridiculus mus.
+          </p>
+          <div class="contact-info my-5">
+            <p><i class="fa fa-map-marker me-2 mt-3"></i> New Street 22545, Nexa Road, New York City, USA</p>
+            <p class="text-danger"><i class="fa fa-envelope me-2 mt-3 text-black"></i> hello@uigrid.com</p>
+            <p><i class="fa fa-phone me-2 mt-3"></i> 001-000-000-000</p>
+            <div class="socials mt-4">
+
+              <i class="fab fa-twitter fa-fw"></i>
+              <i class="fab fa-facebook-f fa-fw"></i>
+              <i class="fab fa-instagram fa-fw"></i>
+              <i class="fab fa-dribbble fa-fw"></i>
+              <i class="fab fa-pinterest fa-fw"></i>
+
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <form>
+            <div class="mb-3">
+              <input type="text" class="form-control" id="userName" placeholder="Enter Name">
+            </div>
+            <div class="mb-3">
+              <input type="email" class="form-control" id="userEmail" placeholder="Enter E-mail">
+            </div>
+            <div class="mb-3">
+              <textarea class="form-control" id="message" placeholder="Message"></textarea>
+            </div>
+            <p id="charCount"><span class="text-danger">100</span> Characters remaining</p>
+
+            <button type="button" class="btn btn-primary">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <script src="js/jquery-3.7.1.min.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/code.js"></script>
+</body>
+
+</html>
