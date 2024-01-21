@@ -166,3 +166,57 @@
 .warning-text {
   color: red;
 }
+
+@media (max-width: 768px) {
+  #home-content h2 {
+    font-size: 60px; /* Adjust font size for smaller screens */
+  }
+
+  #home-content p {
+    font-size: 40px; /* Adjust font size for smaller screens */
+  }
+
+  .nav a {
+    padding: 15px 8px; /* Adjust padding for smaller screens */
+    font-size: 20px; /* Adjust font size for smaller screens */
+  }
+
+  .openNav {
+    font-size: 24px; /* Adjust font size for smaller screens */
+  }
+
+  .timer-overlay {
+    height: 100%; /* Adjust height for smaller screens */
+  }
+
+  .t-box {
+    padding: 30px; /* Adjust padding for smaller screens */
+    font-size: 24px; /* Adjust font size for smaller screens */
+  }
+
+  .Contact h2 {
+    font-size: 2em; /* Adjust font size for smaller screens */
+  }
+
+  .Contact h3 {
+    font-size: 1.2em; /* Adjust font size for smaller screens */
+  }
+
+  .Contact p {
+    font-size: 0.9em; /* Adjust font size for smaller screens */
+  }
+
+  .Contact textarea {
+    height: 120px; /* Adjust height for smaller screens */
+  }
+
+  .Contact button {
+    padding: 8px 15px; /* Adjust padding for smaller screens */
+  }
+
+  .socials i {
+    width: 30px; /* Adjust width for smaller screens */
+    height: 30px; /* Adjust height for smaller screens */
+    line-height: 32px; /* Adjust line height for smaller screens */
+  }
+}
